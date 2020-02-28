@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.header__nav-list {
+list-style: none;
+text-align: center;
+font-size: 0;
+}
+.header__nav-item {
+    display: inline-block;
+    padding: 22px 60px;
+    font-size: 11px;
+}
+.header__nav-link {
+color: #626266;
+font-size: 11px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.header__nav-link_active,
+.header__nav-link:hover {
+    color: #03a9f4;
+}
+.blogposts {
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+}
+.blogpost {
+    display: inline-block;
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 74px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #626262;
+    font-size: 15px;
+    text-align: left;
+}
+.blogpost:nth-last-of-type(1),
+.blogpost:nth-last-of-type(2) {
+    margin-bottom: 13px;
+}
+.blogpost__cover {
+    width: 100%;
+    padding-bottom: 15%
+    background-image: url('../img/beach.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blogpost__label {
+    padding-top: 37px;
+    color: #b4ad9e;
+    font-size: 11px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.blogpost__title {
+    padding-top: 30px;
+    font-size: 23px;
+    line-height: 1;
+}
+.blogpost__desc {
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.btn-wrap {
+    text-align: center;
+    padding: 36px 0 70px;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 0 21px;
+    border: 1px solid black;
+    color: #626262;
+    font-size: 15px;
+    font-family: serif;
+}
