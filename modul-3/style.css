@@ -2,17 +2,18 @@
     margin: 0;
     padding: 0;
 }
-.conteiner{
+.container{
     width: 900px;
     margin: 0 auto;
-    font-family: 'Playfair Display';
-    font-weight: 100;
+    font-family: 'Playfair Display' 500;
+    font-weight: 500;
 }
 .header {
     padding-top: 71px;
     padding-bottom: 71px;
 }
 .header__nav-list {
+display: block ;
 list-style: none;
 text-align: center;
 font-size: 0;
@@ -24,7 +25,7 @@ font-size: 0;
 .header__nav-link {
 color: #626266;
 padding: 22px 60px;
-font-size: 11px;
+font-size: 13px;
 text-transform: uppercase;
 text-decoration: none;
 }
@@ -57,27 +58,27 @@ text-decoration: none;
 }
 .blogpost__cover {
     width: 100%;
-    padding-bottom: 15%
+    padding-bottom: 30px;
     background-image: url('../img/beach.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .blogpost__label {
-    padding-top: 37px;
+    margin-bottom: 37px;
     color: #c7c1b6;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1;
     text-transform: uppercase;
 }
 .blogpost__title {
-    padding-top: 30px;
-    font-size: 23px;
+    margin-bottom: 30px;
+    font-size: 27px;
     line-height: 1;
 }
 .blogpost__desc {
     padding-top: 40px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
 }
 .btn-wrap {
