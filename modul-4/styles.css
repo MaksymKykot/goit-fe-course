@@ -16,6 +16,11 @@ body {
     box-sizing: border-box;
 }
 
+.header {
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
 .header__logo {
 float: left;
 font-family: 'Roboto', sans-serif;
@@ -23,6 +28,7 @@ color: #555252;
 font-size: 30px;
 line-height: 1;
 text-transform: uppercase;
+text-decoration: none;
 padding: 0px;
 }
 
@@ -42,6 +48,7 @@ font-weight: 700;
     text-align: center;
     font-size: 0;
     margin-top: 8px;
+    padding: 0px;
 }
 
 .header__nav-item {
@@ -68,9 +75,14 @@ float: left;
     color: #1abc9c;
 }
 
+.sc__products {
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
 .h2 {
     margin: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 85px;
     color: #515151;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -94,6 +106,7 @@ background-color: #1abc9c;
 .products__list {
 list-style: none;
 padding: 0;
+margin: 0px;
 font-family: 'Roboto', sans-serif;
 }
 
@@ -152,6 +165,10 @@ padding-right: 15px;
 background-color: rgba(255,255,255,0.4);
 }
 
+.sc__news {
+    padding: 0px;
+}
+
 
 .news__list {
     list-style: none;
@@ -164,7 +181,6 @@ background-color: rgba(255,255,255,0.4);
     float: left;
     width: 355px;
     margin-left: 32px;
-    margin-bottom: 30px;
 }
 
 .news__item:first-child {
@@ -207,6 +223,7 @@ padding: 20px 43px 18px;
 border-radius: 3px;
 background-color: #4ec6ab;
 color: #fff;
+text-decoration: none;
 }
 
 .news__link:hover {
