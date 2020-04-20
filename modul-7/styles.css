@@ -1,0 +1,275 @@
+
+.header {
+    padding-top: 12px;
+    padding-bottom: 80px;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 940px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+}
+
+.header__logo {
+    font-family: 'Oleo Script', cursive;
+    align-self: start;
+    color: #feda5e;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header__nav-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.header__nav-item {
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+
+.header__nav-link {
+    display: block;
+    position: relative;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__nav-link:hover {
+    color: #fed136;
+}
+
+
+.spans {
+    margin: 0px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+
+.sub-title {
+    display: block;
+margin: 0px;
+padding: 0px;
+margin-bottom: 24px;
+color: #333333;
+font-family: 'Roboto',sans-serif;
+text-transform: uppercase;
+font-size: 30px;
+line-height: 1.2;
+text-align: center;
+}
+
+.h2 {
+margin-bottom:  48px;
+padding:  0px;
+font-family: 'Ubuntu', sans-serif;
+color: #808080;
+font-size: 15px;
+font-weight: 700;
+line-height: 1.2;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.text {
+color: #999999;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+line-height: 1.2;
+text-align: center;
+margin: 0px 150px;
+margin-bottom: 95px;
+
+}
+
+
+.menu__item {
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+
+
+.menu {
+width: 275px;
+text-align: center;
+}
+
+.menu::before {
+    content: "";
+    display: block;
+    height: 73px;
+    margin-bottom: 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.icon-1::before {
+    background-image: url(img/icons/icon-1.png);
+}
+
+.icon-2::before {
+    background-image: url(img/icons/icon-2.png);
+}
+
+.icon-3::before {
+    background-image: url(img/icons/icon-3.png);
+}
+
+.heading {
+    margin: 0px;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img {
+    height: 32px;
+    padding-left: 21px;
+}
+
+.inf {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 15px;
+
+}
+
+
+.our-team {
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 85px;
+}
+
+.contact {
+    background-image: url(img/back/back.jpg);
+
+    background-position: center;
+}
+
+
+
+.infs {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.infs__type {
+    width: 400px;
+    height: 50px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.inf :last-child {
+    margin-bottom: 0px;
+}
+
+
+.title {
+    margin: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+}
+
+.title__text {
+    margin: 0px;
+    margin-bottom: 77px;
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.b__img {
+    background-color: #222222;
+    background-image: url('img/back/back.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.back_i {
+padding-bottom:  80px;
+padding-top: 80px;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-top: 48px;
+}
+
+.input {
+    height: 50px;
+}
+
+.input, .textarea{
+    width: 48.5%;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    outline: 0;
+    padding: 10px 16px;
+}
+
+.button {
+    margin-top: 25px;
+    padding: 20px 35px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #777777;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 200ms linear;
+    font-family: 'Montserrat';
+}
+
+.buttons :hover {
+    background-color: #fed136;
+}
