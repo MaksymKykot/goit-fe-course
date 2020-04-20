@@ -6,7 +6,6 @@
 
 
 .container {
-    position: relative;
     text-align: center;
     width: 100%;
     max-width: 940px;
@@ -80,7 +79,7 @@ margin: 0px;
 padding: 0px;
 margin-bottom: 24px;
 color: #333333;
-font-family: 'Roboto',sans-serif;
+font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 font-size: 30px;
 line-height: 1.2;
@@ -91,12 +90,12 @@ text-align: center;
 margin-bottom:  48px;
 padding:  0px;
 font-family: 'Ubuntu', sans-serif;
+font-style: italic;
 color: #808080;
 font-size: 15px;
 font-weight: 700;
 line-height: 1.2;
 text-align: center;
-font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -157,6 +156,7 @@ text-align: center;
     font-size: 15px;
     margin-bottom: 12px;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .img {
@@ -210,16 +210,18 @@ text-align: center;
     color: #fff;
     text-transform: uppercase;
     font-size: 40px;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 
 .title__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
     margin: 0px;
     margin-bottom: 77px;
     color: #777777;
     font-size: 16px;
-    font-family: 'Ubuntu', sans-serif;
+    
 }
 
 .b__img {
@@ -236,25 +238,35 @@ padding-top: 80px;
 
 
 .inputs {
+    width: 940px;
+    height: 226px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-wrap: wrap;
-    height: 200px;
+    justify-content: space-around;
     margin-top: 48px;
+
 }
 
 .input {
-    height: 50px;
+    height: 52px;
+    width: 455px;
+}
+
+
+.textarea {
+    height: 200px;
+    width: 455px;
 }
 
 .input, .textarea{
-    width: 48.5%;
-    box-sizing: border-box;
+    width: 455px;
     border: 1px solid #eee;
     border-radius: 4px;
     outline: 0;
     padding: 10px 16px;
+    box-sizing: border-box;
+
 }
 
 .button {
@@ -267,9 +279,16 @@ padding-top: 80px;
     text-transform: uppercase;
     cursor: pointer;
     transition: all 200ms linear;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
-.buttons :hover {
+.button:hover {
     background-color: #fed136;
+}
+
+[required]:not(:placeholder-shown):valid{
+    box-shadow:0 0 0 2px green;
+}
+[required]:not(:placeholder-shown):invalid{
+    box-shadow:0 0 0 2px red;
 }
