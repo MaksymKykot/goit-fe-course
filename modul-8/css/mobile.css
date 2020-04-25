@@ -1,0 +1,252 @@
+
+
+
+
+
+
+.header {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding-top: 19px;
+}
+
+
+.container {
+width: 100%;
+margin: 0 auto;
+padding: 0;
+}
+
+.header__inner {
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+}
+
+.header__logo {
+color: #fff;
+font-size: 20px;
+font-weight: 700;
+text-decoration: none;
+margin-top: 115px;
+font-family: 'Montserrat';
+}
+
+.header__log-list {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+padding: 0px;
+margin: 0px;
+font-family: 'Montserrat';
+}
+
+
+
+.header__log-link {
+display: block;
+padding: 11px 19px 12px;
+border: 3px solid transparent;
+border-radius: 21px;
+color: #fff;
+font-size: 14px;
+font-weight: 700;
+text-decoration: none;
+transition: border-color 0.35s;
+}
+
+.header__log-link:hover {
+    border-color: #fff;
+}
+
+.after-head {
+min-height: 100vh;
+padding: 229px 0 104px;
+box-sizing: border-box;
+background-image: url('../img/back/back.png');
+background-position: center;
+background-size: cover;
+margin-bottom: 68px;
+}
+
+
+
+.after-head__title {
+max-width: 282px;
+margin: 0 auto;
+color: #fff;
+font-size: 25px;
+line-height: 1.2;
+font-weight: 600;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 19px;
+font-family: 'Montserrat';
+}
+
+.after-head__sub-title {
+max-width: 217px;
+margin: 0 auto;
+color: #fff;
+font-size: 18px;
+line-height: 1.2;
+text-align: center;
+margin-bottom: 18px;
+font-family: 'Roboto';
+}
+
+.after-head__btn-wrap {
+padding-top: 18px;
+text-align: center;
+}
+
+.btn {
+padding: 11px 23px 12px;
+border: 2px solid #ff4e50;
+border-radius: 22px;
+background-color: #ff4e50;
+color: #fff;
+font-size: 14px;
+font-weight: 700;
+font-family: 'Montserrat';
+}
+
+
+
+
+.partner-text {
+    max-width: 276px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 14px; 
+    font-family: 'Montserrat';  
+}
+
+.holiday-partners__partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.holiday-partners__avatar {
+    position: relative;
+width: 122px;
+height: 122px;
+margin: 0 auto;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+}
+
+.holiday-partners__avatar::after {
+content: '';
+position: absolute;
+right: -3px;
+bottom: -3px;
+display: block;
+width: 34px;
+height: 34px;
+border: 3px solid #fff;
+border-radius: 50%;
+background-color: red;
+background-image: url('../img/icons/icons1.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.holiday-partners__partner-name {
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #333;
+    font-size: 19px;
+    font-family: 'Montserrat';
+}
+
+.holiday-partners__partner-desc {
+width: 200px;
+color: #666;
+font-size: 15px;
+text-align: center;
+font-weight: 500;
+margin-bottom: 28px;
+font-family: 'Roboto';
+}
+
+.foto__1 {
+    background-image: url('../img/foto/foto1.png');
+}
+
+.foto__1::after {
+    background-image: url('../img/icons/icons1.png');
+    background-color: #ff4e50;
+}
+
+
+
+
+
+ 
+.foto__2 {
+    background-image: url('../img/foto/foto2.png');
+}
+
+
+.foto__2::after {
+    background-image: url('../img/icons/icons2.png');
+    background-color: #1cd7ad;
+}
+
+
+
+.foto__3 {
+    background-image: url('../img/foto/foto3.png');
+}
+
+.foto__3::after {
+    background-image: url('../img/icons/icons3.png');
+    background-color:#ffa507;
+}
+
+
+.foto__4 {
+    background-image: url('../img/foto/foto4.png');
+}
+
+.foto__4::after {
+    background-image: url('../img/icons/icons4.png');
+    background-color: #4e73db;
+}
+
+
+.after-partner__btn-wrap {
+    padding-top: 18px;
+    text-align: center;
+}
+
+.btn__2 {
+    text-align: center;
+    padding: 0;
+    border: 2px solid #ff4e50;
+    border-radius: 22px;
+    color: #ff4e50;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fff;
+    width: 281px;
+    height: 41px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+}
+
