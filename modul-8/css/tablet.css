@@ -1,7 +1,7 @@
-@media (min-width: 1120px) {
+@media (min-width: 770px) {
 
  .container {
-     max-width: 1100px;
+     max-width: 960px;
      padding: 0 10px;
  }
 
@@ -16,6 +16,10 @@
 
 .header__logo {
     margin: 0px;
+}
+
+.header__log-list {
+    margin: 0;
 }
 
 .after-head {
@@ -53,7 +57,16 @@
 .holiday-partners__partner {
     width: 50%;
 }
+.holiday-partners__partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+
+.div__img {
+    margin: auto;
+}
 
 .partner-text {
     max-width: 401px;

@@ -9,7 +9,6 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-padding-top: 19px;
 }
 
 
@@ -31,7 +30,6 @@ color: #fff;
 font-size: 20px;
 font-weight: 700;
 text-decoration: none;
-margin-top: 115px;
 font-family: 'Montserrat';
 }
 
@@ -43,6 +41,7 @@ list-style: none;
 padding: 0px;
 margin: 0px;
 font-family: 'Montserrat';
+margin-bottom: 115px;
 }
 
 
@@ -115,7 +114,11 @@ font-weight: 700;
 font-family: 'Montserrat';
 }
 
-
+.holiday-partners__partner{
+    margin: auto;
+width: 200px;
+margin-bottom: 30px;
+}
 
 
 .partner-text {
@@ -130,40 +133,98 @@ font-family: 'Montserrat';
 }
 
 .holiday-partners__partners-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
+    width: 100%;
+margin: 0px;
+padding: 0px;
+list-style: none;
 }
 
-.holiday-partners__avatar {
+.fotos {
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+}
+
+.div__img {
+    width: 200px;
+    height: 122px;
+    text-align: center;
+}
+
+
+.foto__1::after{ 
     position: relative;
-width: 122px;
-height: 122px;
-margin: 0 auto;
-border-radius: 50%;
-background-size: cover;
-background-position: center;
-margin-bottom: 20px;
-}
-
-.holiday-partners__avatar::after {
-content: '';
-position: absolute;
-right: -3px;
-bottom: -3px;
+    content: '';
+right: -115px;
+bottom: 42px;
 display: block;
 width: 34px;
 height: 34px;
 border: 3px solid #fff;
 border-radius: 50%;
-background-color: red;
 background-image: url('../img/icons/icons1.png');
+background-color: red;
 background-repeat: no-repeat;
 background-position: center;
+margin: 0;
+padding: 0;
 }
 
+.foto__2::after{ 
+    position: relative;
+    content: '';
+right: -115px;
+bottom: 42px;
+display: block;
+width: 34px;
+height: 34px;
+border: 3px solid #fff;
+border-radius: 50%;
+background-image: url('../img/icons/icons2.png');
+background-color: #ffa507;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+padding: 0;
+}
+
+.foto__3::after{ 
+    position: relative;
+    content: '';
+right: -115px;
+bottom: 42px;
+display: block;
+width: 34px;
+height: 34px;
+border: 3px solid #fff;
+border-radius: 50%;
+background-image: url('../img/icons/icons3.png');
+background-color: #1cd7ad;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+padding: 0;
+}
+
+.foto__4::after{ 
+    position: relative;
+    content: '';
+right: -115px;
+bottom: 42px;
+display: block;
+width: 34px;
+height: 34px;
+border: 3px solid #fff;
+border-radius: 50%;
+background-image: url('../img/icons/icons4.png');
+background-color: #4e73db;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0;
+padding: 0;
+}
 
 .holiday-partners__partner-name {
     margin: 0px;
@@ -178,64 +239,31 @@ background-position: center;
 width: 200px;
 color: #666;
 font-size: 15px;
-text-align: center;
 font-weight: 500;
 margin-bottom: 28px;
 font-family: 'Roboto';
+text-align: center;
+margin:auto;
 }
 
-.foto__1 {
-    background-image: url('../img/foto/foto1.png');
-}
 
-.foto__1::after {
-    background-image: url('../img/icons/icons1.png');
-    background-color: #ff4e50;
-}
+
 
 
 
 
 
  
-.foto__2 {
-    background-image: url('../img/foto/foto2.png');
-}
 
-
-.foto__2::after {
-    background-image: url('../img/icons/icons2.png');
-    background-color: #1cd7ad;
-}
-
-
-
-.foto__3 {
-    background-image: url('../img/foto/foto3.png');
-}
-
-.foto__3::after {
-    background-image: url('../img/icons/icons3.png');
-    background-color:#ffa507;
-}
-
-
-.foto__4 {
-    background-image: url('../img/foto/foto4.png');
-}
-
-.foto__4::after {
-    background-image: url('../img/icons/icons4.png');
-    background-color: #4e73db;
-}
 
 
 .after-partner__btn-wrap {
-    padding-top: 18px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .btn__2 {
+    margin: 0;
     text-align: center;
     padding: 0;
     border: 2px solid #ff4e50;
@@ -246,7 +274,6 @@ font-family: 'Roboto';
     background-color: #fff;
     width: 281px;
     height: 41px;
-    margin-bottom: 50px;
     font-family: 'Montserrat';
 }
 
