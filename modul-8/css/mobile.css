@@ -114,6 +114,11 @@ font-weight: 700;
 font-family: 'Montserrat';
 }
 
+.holiday-partners {
+    margin-bottom: 50px;
+}
+
+
 .holiday-partners__partner{
     margin: auto;
 width: 200px;
@@ -259,7 +264,6 @@ margin:auto;
 
 .after-partner__btn-wrap {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .btn__2 {
