@@ -6,8 +6,8 @@
     <title>Documet</title>
     
     <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/styles.css">
      <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
         <header class="header">
@@ -68,68 +68,68 @@
 
     <section class="our-team">
         <div class="container">
-                        <h2 class="spans">
+                        <h2 class="our-team__heading">
                         <span class="sub-title">We work with</span>
                         <span class="h2">amazing services</span>
                         </h2>
 
-                    <ul class="menu__item">
-                        <li class="menu">
-                            <article class="img__1 article">
-                                <h2 class="heading">
+                    <ul class="our-team__menu">
+                        <li class="our-team__menu-items">
+                            <article class="service__item services__icon--clock">
+                                <h2 class="our-team__menu-heading">
                                     photography
                                 </h2>
-                                <p class="inf">
+                                <p class="our-team__menu-inf">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                 </p>
                             </article>
                         </li>
-                        <li class="menu">
-                            <article class="img__2 article">
-                                <h2 class="heading">
+                        <li class="our-team__menu-items">
+                            <article class="service__item services__icon--graphic">
+                                <h2 class="our-team__menu-heading">
                                     web design
                                 </h2>
-                                <p class="inf">
+                                <p class="our-team__menu-inf">
                                     Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                 </p>
                             </article>
                         </li>
-                        <li class="menu">
-                            <article class="img__3 article">
-                                <h2 class="heading">
+                        <li class="our-team__menu-items">
+                            <article class="service__item services__icon--monitor">
+                                <h2 class="our-team__menu-heading">
                                     creativity
                                 </h2>
-                                <p class="inf">
+                                <p class="our-team__menu-inf">
                                     Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                 </p>
                             </article>
                         </li>
-                        <li class="menu">
-                            <article class="img__4 article">
-                                <h2 class="heading">
+                        <li class="our-team__menu-items">
+                            <article class="service__item services__icon--book">
+                                <h2 class="our-team__menu-heading">
                                     seo
                                 </h2>
-                                <p class="inf">
+                                <p class="our-team__menu-inf">
                                     Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
                                 </p>
                             </article>
                         </li>
-                        <li class="menu">
-                            <article class="img__5 article">
-                                <h2 class="heading">
+                        <li class="our-team__menu-items">
+                            <article class="service__item services__icon--home">
+                                <h2 class="our-team__menu-heading">
                                     css/html
                                 </h2>
-                                <p class="inf">
+                                <p class="our-team__menu-inf">
                                     Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.
                                 </p>
                             </article>
                         </li>
-                        <li class="menu">
-                            <article class="img__6 article">
-                                <h2 class="heading">
+                        <li class="our-team__menu-items">
+                            <article class="service__item services__icon--square">
+                                <h2 class="our-team__menu-heading">
                                     digital
                                 </h2>
-                                <p class="inf">
+                                <p class="our-team__menu-inf">
                                     Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                 </p>
                             </article>
@@ -140,7 +140,7 @@
 
          <section class="our-team">
             <div class="container">
-                        <h2 class="spans">
+                        <h2 class="our-team__heading">
                         <span class="sub-title">Who we are</span>
 
                         <span class="h2">Meet our team</span>
@@ -152,20 +152,40 @@
                             <li class="our-team__member">
                                 <div class="card">
                                     <div class="overlay">
-                                    <a class="icons" href="">
-                                        <span class="icon-1 overlay-icon"></span>
-                                    </a>
-                                    <a class="icons" href="">
-                                        <span class="icon-2 overlay-icon"></span>
-                                    </a>
-                                    <a class="icons" href="">
-                                        <span class="icon-3 overlay-icon"></span>
-                                    </a>
-                                    <a class="icons" href="">
-                                        <span class="icon-4 overlay-icon"></span>
-                                    </a>
+                                        <ul class="our-team__card-list">
+                                            <li class="our-team__card-item">
+                                                 <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-facebook"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-instagram"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-pinteresr"></use>
+                                                    </svg>
+                                                 </a> 
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-twitter"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <img src="img/men/men1.jpg" alt="" width="380px" height="471px">
+                                    <img src="img/men/men1.jpg" srcset="img/men/men1.jpg 380w, img/men/men1@2x.jpg 720w"
+                                    sizes="380px"
+                                    src="img/men/men1.jpg" alt="" width="381">
                                     <p class="card-name">Matthew Dix</p>
                                     <p class="card-pos">Graphic Design</p>
                                 </div>
@@ -173,20 +193,40 @@
                             <li class="our-team__member">
                                 <div class="card">
                                     <div class="overlay">
-                                        <a class="icons" href="">
-                                        <span class="icon-1 overlay-icon"></span>
-                                        </a>
-                                        <a class="icons" href="">                                 
-                                        <span class="icon-2 overlay-icon"></span>
-                                        </a>
-                                        <a class="icons" href="">
-                                        <span class="icon-3 overlay-icon"></span>
-                                        </a>
-                                        <a class="icons" href="">
-                                        <span class="icon-4 overlay-icon"></span>
-                                        </a>
+                                        <ul class="our-team__card-list">
+                                            <li class="our-team__card-item">
+                                                 <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-facebook"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-instagram"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-pinteresr"></use>
+                                                    </svg>
+                                                 </a> 
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-twitter"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <img src="img/men/men2.jpg" alt="" width="380px" height="471px">
+                                    <img src="img/men/men2.jpg" srcset="img/men/men2.jpg 380w, img/men/men2@2x.jpg 720w"
+                                    sizes="380px"
+                                    src="img/men/men2.jpg" alt="" width="381">
                                     <p class="card-name">Christopher Campbell</p>
                                     <p class="card-pos">Branding/UX design</p>
                                 </div>
@@ -194,20 +234,40 @@
                             <li class="our-team__member">
                                 <div class="card">
                                     <div class="overlay">
-                                        <a class="icons" href="">
-                                        <span class="icon-1 overlay-icon"></span>
-                                        </a>
-                                        <a class="icons" href="">
-                                        <span class="icon-2 overlay-icon"></span>
-                                        </a>
-                                        <a class="icons" href="">
-                                        <span class="icon-3 overlay-icon"></span>
-                                        </a>
-                                        <a class="icons" href="">
-                                        <span class="icon-4 overlay-icon"></span>
-                                        </a>
+                                        <ul class="our-team__card-list">
+                                            <li class="our-team__card-item">
+                                                 <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-facebook"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-instagram"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-pinteresr"></use>
+                                                    </svg>
+                                                 </a> 
+                                            </li>
+                                            <li class="our-team__card-item">
+                                                <a class="overlay-icon" href="">
+                                                    <svg class="team__networks-icon">
+                                                        <use href="img/sprite.svg#icon-twitter"></use>
+                                                    </svg>
+                                                 </a>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <img src="img/men/men3.jpg" alt="" width="380px" height="471px">
+                                    <img src="img/men/men3.jpg" srcset="img/men/men3.jpg 380w, img/men/men3@2x.jpg 720w"
+                                    sizes="380px"
+                                    src="img/men/men3.jpg" alt="" width="381">
                                     <p class="card-name">Michael Fertig</p>
                                     <p class="card-pos">Developer</p>
                                 </div>
@@ -226,10 +286,10 @@
                             <p class="footer_text">© 2016 MoGo free PSD template by Laaqiq</p>
                         </a>
                 
-                        <form action="">
-                            <p class="inp">
+                        <form class="inp" action="">
+                           
                                 <input class="imp__text" type="text" value="Your Email..."><input class="imp__sub" type="submit" value="subscribe">
-                            </p>
+                            
                         </form>
                      </div>
                 </div>

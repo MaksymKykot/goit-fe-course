@@ -82,7 +82,7 @@ transition: 0.2s;
 .info {
     min-height: 100vh;
     /* padding: 229px 0 231px; */
-    background-image: url(../img/back/back.png);
+    background-image: url(../img/back/back.jpg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -188,7 +188,7 @@ margin-bottom: 95px;
 }
 
 
-.menu__item {
+.our-team__menu {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -201,24 +201,24 @@ margin-bottom: 95px;
 
 
 
-.menu {
+.our-team__menu-items {
     width: 383px;
     display: flex;
     margin-bottom: 100px;
 }
 
-.menu__item :nth-child(n+4) {
+.our-team__menu :nth-child(n+4) {
     margin-bottom: 0px;
 }
 
 
-.article {
+.service__item {
 position: relative;
 width: 383px;
 padding-left: 70px;
 }
 
-.img__1 ::before {
+.services__icon--clock::before {
 position: absolute;
 background-image: url(../img/img/img1.png);
 background-repeat: no-repeat;
@@ -230,7 +230,7 @@ width: 32px;
 height: 32px;
 } 
 
-.img__2 ::before {
+.services__icon--graphic::before {
 position: absolute;
 background-image: url(../img/img/img2.png);
 background-repeat: no-repeat;
@@ -242,7 +242,7 @@ width: 32px;
 height: 32px;
 } 
 
-.img__3 ::before {
+.services__icon--monitor::before {
 position: absolute;
 background-image: url(../img/img/img3.png);
 background-repeat: no-repeat;
@@ -254,7 +254,7 @@ width: 32px;
 height: 32px;
 } 
 
-.img__4 ::before {
+.services__icon--book::before {
 position: absolute;
 background-image: url(../img/img/img4.png);
 background-repeat: no-repeat;
@@ -266,7 +266,7 @@ width: 32px;
 height: 32px;
 } 
 
-.img__5 ::before {
+.services__icon--home::before {
 position: absolute;
 background-image: url(../img/img/img5.png);
 background-repeat: no-repeat;
@@ -278,7 +278,7 @@ width: 32px;
 height: 32px;
 } 
 
-.img__6 ::before {
+.services__icon--square::before {
 position: absolute;
 background-image: url(../img/img/img6.png);
 background-repeat: no-repeat;
@@ -292,7 +292,7 @@ height: 32px;
 
 
 
-.heading {
+.our-team__menu-heading {
     margin: 0px;
     text-transform: uppercase;
     font-size: 15px;
@@ -300,7 +300,7 @@ height: 32px;
     font-family: 'Montserrat';
 }
 
-.img {
+.our-team__menu-inf {
     height: 32px;
     padding-left: 21px;
 }
@@ -320,7 +320,7 @@ height: 32px;
 
 
 
-.spans {
+.our-team__heading {
     margin: 0px;
     margin-bottom: 65px;
     text-align: center;
@@ -355,6 +355,7 @@ height: 32px;
     box-shadow: 0 0 #95e1d3;
 }
 
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -366,11 +367,22 @@ height: 32px;
     opacity: 0;
 }
 
-
-.icons {
-margin-right: 1px;
-
+.our-team__card-list {
+display: flex;
+list-style: none;
 }
+
+.our-team__card-item {
+    margin-right: 1px;
+  
+}
+
+
+
+.our-team__card-item:last-child {
+    margin-right: 0px;
+}
+
 
 .overlay-icon {
     display: inline-block;
@@ -387,34 +399,18 @@ margin-right: 1px;
 .overlay-icon:hover {
     background-color: #f38181;
 }
-
-
-.icon-1 {
-    background-image: url('../img/icons/icons1.png');
-    background-repeat: no-repeat;
-    background-position: center;
+.team__networks-icon {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    fill: #f38181;
 }
 
-.icon-2 {
-    background-image: url('../img/icons/icons2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-
+.team__networks-icon:hover {
+    fill: #fff;
 }
 
-.icon-3 {
-    background-image: url('../img/icons/icons3.png');
-    background-repeat: no-repeat;
-    background-position: center;
 
-}
-
-.icon-4 {
-    background-image: url('../img/icons/icons4.png');
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
 
 .card :hover  {
     opacity: 1 ;
@@ -511,4 +507,36 @@ font-style: italic;
     font-family: 'Montserrat', sans-serif;
 
 }
+
+
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .info {
+        background-image: url(../img/back/back@2x.jpg);
+    }
+    .services__icon--clock::before {
+        background-image: url(../img/img/img1@2x.png);
+       
+    }
+    .services__icon--graphic::before {
+        background-image: url(../img/img/img2@2x.png);
+       
+    }
+    .services__icon--monitor::before {
+        background-image: url(../img/img/img3@2x.png);
+       
+    }
+    .services__icon--book::before {
+        background-image: url(../img/img/img4@2x.png);
+       
+    }
+    .services__icon--home::before {
+        background-image: url(../img/img/img5@2x.png);
+    
+    }
+    .services__icon--square::before {
+        background-image: url(../img/img/img6@2x.png);
+       
+    }
+   }
 
