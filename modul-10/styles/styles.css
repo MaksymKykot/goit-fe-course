@@ -22,7 +22,7 @@
 }
 
 .header__logo {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     align-self: start;
     color: #fff;
     font-size: 30px;
@@ -58,7 +58,7 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.2s;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header__nav-link::after {
@@ -104,7 +104,7 @@ transition: 0.2s;
 
 .info-container__text {
     text-align: center;
-    font-family: 'Kaushan Script';
+    font-family: 'Kaushan Script', cursive;
     font-size: 72px;
     line-height: 1.2;
     margin: 0 auto 42px;
@@ -120,7 +120,7 @@ transition: 0.2s;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 1.2;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .info-container__button-wrap {
@@ -136,7 +136,7 @@ transition: 0.2s;
     font-weight: 600;
     line-height: 1.2;
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -149,7 +149,7 @@ margin: 0px;
 padding: 0px;
 margin-bottom: 24px;
 color: #333333;
-font-family: 'Kaushan Script';
+font-family: 'Kaushan Script', cursive;
 font-size: 24px;
 line-height: 1.2;
 text-align: center;
@@ -164,7 +164,7 @@ font-weight: 700;
 line-height: 1.2;
 text-align: center;
 text-transform: uppercase;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 
 .h2::after {
@@ -178,7 +178,7 @@ font-family: 'Montserrat';
 
 .text {
 color: #999999;
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-size: 15px;
 line-height: 1.2;
 text-align: center;
@@ -196,7 +196,7 @@ margin: 0px;
 padding: 0px;
 align-items: center;
 list-style: none; 
-margin-bottom: 95px;
+padding-bottom: 95px;
 }
 
 
@@ -297,12 +297,11 @@ height: 32px;
     text-transform: uppercase;
     font-size: 15px;
     margin-bottom: 12px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .our-team__menu-inf {
-    height: 32px;
-    padding-left: 21px;
+    margin: 0px;
 }
 
 
@@ -314,7 +313,7 @@ height: 32px;
 
 .inf {
     margin: 0px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -386,6 +385,7 @@ list-style: none;
 
 .overlay-icon {
     display: inline-block;
+    text-align: center;
     width: 57px;
     height: 57px;
     background-color: #fce38a;
@@ -410,6 +410,9 @@ list-style: none;
     fill: #fff;
 }
 
+.overlay-icon:hover.team__networks-icon {
+fill:#fff;
+}
 
 
 .card :hover  {
@@ -428,7 +431,7 @@ list-style: none;
     margin-top: 31px;
     text-align: center;
     font-size: 17px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
@@ -439,7 +442,7 @@ list-style: none;
     margin: 0px;
     font-style: italic;
     font-size: 17px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #999999;
 }
@@ -479,7 +482,7 @@ margin: 10px 0px;
 }
 
 .footer_text {
-    font-family: 'Montserrat'; 
+font-family: 'Montserrat', sans-serif; 
 font-size: 13px; 
 margin: 0px;
 margin-top: 25px;
@@ -492,7 +495,7 @@ padding-left: 10px;
 border:2px solid #e5e5e5 ;
 font-size: 15px;
 color: #e5e5e5;
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: italic;
 }
 
