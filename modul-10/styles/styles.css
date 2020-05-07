@@ -140,7 +140,10 @@ transition: 0.2s;
 }
 
 
-
+.service {
+    margin: 0px;
+    padding: 0px;
+}
 
 
 .sub-title {
@@ -188,7 +191,7 @@ margin-bottom: 95px;
 }
 
 
-.our-team__menu {
+.service__menu {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -201,13 +204,13 @@ padding-bottom: 95px;
 
 
 
-.our-team__menu-items {
+.service__menu-items {
     width: 383px;
     display: flex;
     margin-bottom: 100px;
 }
 
-.our-team__menu :nth-child(n+4) {
+.service__menu :nth-child(n+4) {
     margin-bottom: 0px;
 }
 
@@ -292,7 +295,7 @@ height: 32px;
 
 
 
-.our-team__menu-heading {
+.service__menu-heading {
     margin: 0px;
     text-transform: uppercase;
     font-size: 15px;
@@ -300,7 +303,7 @@ height: 32px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.our-team__menu-inf {
+.service__menu-inf {
     margin: 0px;
 }
 
@@ -319,10 +322,16 @@ height: 32px;
 
 
 
-.our-team__heading {
+.service__heading{
     margin: 0px;
     margin-bottom: 65px;
     text-align: center;
+}
+
+.our-team__heading {
+    margin: 0px;
+    margin-bottom: 65px;
+    text-align: center; 
 }
 
 .our-team {
@@ -383,20 +392,22 @@ list-style: none;
 }
 
 
-.overlay-icon {
+.overlay-link {
     display: inline-block;
     text-align: center;
     width: 57px;
     height: 57px;
     background-color: #fce38a;
     margin-right: 1px;
+    justify-content: center;
+    margin: auto;
 }
 
 .overlay :last-child {
     margin-right: 0px;
 }
 
-.overlay-icon:hover {
+.overlay-link:hover {
     background-color: #f38181;
 }
 .team__networks-icon {
@@ -410,7 +421,7 @@ list-style: none;
     fill: #fff;
 }
 
-.overlay-icon:hover.team__networks-icon {
+.overlay-link:hover.team__networks-icon {
 fill:#fff;
 }
 
