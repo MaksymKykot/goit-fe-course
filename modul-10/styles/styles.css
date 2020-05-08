@@ -415,13 +415,14 @@ list-style: none;
     width: 27px;
     height: 27px;
     fill: #f38181;
+    margin: auto;
 }
 
 .team__networks-icon:hover {
     fill: #fff;
 }
 
-.overlay-link:hover.team__networks-icon {
+.overlay-link:hover .team__networks-icon {
 fill:#fff;
 }
 
