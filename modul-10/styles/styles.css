@@ -393,8 +393,8 @@ list-style: none;
 
 
 .overlay-link {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
     width: 57px;
     height: 57px;
     background-color: #fce38a;
@@ -411,11 +411,10 @@ list-style: none;
     background-color: #f38181;
 }
 .team__networks-icon {
-    display: inline-block;
+    text-align: center;
     width: 27px;
     height: 27px;
     fill: #f38181;
-    margin: auto;
 }
 
 .team__networks-icon:hover {
